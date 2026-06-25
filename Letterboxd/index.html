@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+        <section id="">
+            <h1>LightSpot</h1>
+            <nav>
+                <a href="#cadastro">Cadastrar</a>
+                <a href="#colecao">Coleção</a>
+                <a href="#sobre">Sobre</a>
+            </nav>
+            <button id="noite" onclick="alterarCor()">Acender as luzes</button>
+        </section>
+    </header>
+   <main>
+        <section class="cadastro">
+            <div>
+                <h2>Cadastre seu filme</h2>
+                
+                <label for="nome_film">Nome do filme:</label>
+                <input type="text" class="info" id="nome_film" placeholder="Digite o nome do filme">
+                
+                <label for="gen_film">Genero do filme:</label>
+                <input type="text" class="info" id="gen_film" placeholder="Digite o genêro do filme">
+                
+                <label for="ano_film">Ano do filme:</label>
+                <input type="text" class="info" id="ano_film" placeholder="Digite o ano de lançamento">
+                
+                <button id="noite" onclick="cadastroFilme()">Cadastrar</button>
+            </div>
+        </section>
+        <section class="colecao">
+            <h2>Minha Coleção</h2>
+            <ul id="lista"></ul>
+        </section>
+   </main>
+   <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
