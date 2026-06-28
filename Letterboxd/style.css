@@ -84,7 +84,7 @@ nav a:hover {
 
 }
 
-#noite {
+.noite {
     background-color: #7a2331;
     color: var(--marquee-gold);
     border-radius: 5px;
@@ -92,7 +92,7 @@ nav a:hover {
     padding: 5px;
 }
 
-#noite:hover {
+.noite:hover {
     background-color: var(--cream);
     color: var(--bg-panel-light);
     border: 2px solid var(--bg-panel-light);;
@@ -157,6 +157,23 @@ input:focus {
 button {
     cursor: pointer;
     transition: var(--transition);
+}
+
+.filme {
+    border: 2px solid var(--marquee-gold);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    list-style: none;
+    background: var(--bg-panel-light);
+}
+
+.filme button {
+    background-color: var(--velvet);
+    color: var(--marquee-gold);
+    border: 2px solid var(--marquee-gold);
+    padding: 6px 10px;
+    border-radius: 5px;
 }
 
 

@@ -11,11 +11,11 @@
         <section id="">
             <h1>LightSpot</h1>
             <nav>
-                <a href="#cadastro">Cadastrar</a>
+                <a href="#nome_film">Cadastrar</a>
                 <a href="#colecao">Coleção</a>
                 <a href="#sobre">Sobre</a>
             </nav>
-            <button id="noite" onclick="alterarCor()">Acender as luzes</button>
+            <button id="noite" class="noite" onclick="alterarCor()">Acender as luzes</button>
         </section>
     </header>
    <main>
@@ -32,11 +32,12 @@
                 <label for="ano_film">Ano do filme:</label>
                 <input type="text" class="info" id="ano_film" placeholder="Digite o ano de lançamento">
                 
-                <button id="noite" onclick="cadastroFilme()">Cadastrar</button>
+                <button id="btn-cadastrar" class="noite" onclick="cadastroFilme()">Cadastrar</button>
             </div>
         </section>
-        <section class="colecao">
+        <section id="colecao" class="colecao">
             <h2>Minha Coleção</h2>
+            <p id="contador">Filmes cadastrados: 0</p>
             <ul id="lista"></ul>
         </section>
    </main>
