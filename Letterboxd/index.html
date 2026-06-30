@@ -8,6 +8,7 @@
 </head>
 <body>
    <header>
+    <!-- HEADER COM O BOTAO DO MODO CLARO-->
         <section id="">
             <h1>LightSpot</h1>
             <nav>
@@ -21,6 +22,7 @@
    <main>
         <section class="cadastro">
             <div>
+            <!--INPUTS PARA MANDARAS INFORMAÇOES PARA O JS -->
                 <h2>Cadastre seu filme</h2>
                 
                 <label for="nome_film">Nome do filme:</label>
@@ -30,18 +32,21 @@
                 <input type="text" class="info" id="gen_film" placeholder="Digite o genêro do filme">
                 
                 <label for="ano_film">Ano do filme:</label>
-                <input type="text" class="info" id="ano_film" placeholder="Digite o ano de lançamento">
+                <input type="number" class="info" id="ano_film" placeholder="Digite o ano de lançamento">
                 
                 <button id="btn-cadastrar" class="noite" onclick="cadastroFilme()">Cadastrar</button>
             </div>
         </section>
         <section id="colecao" class="colecao">
+        <!-- ONDE APARECEM OS CARDS -->
             <h2>Minha Coleção</h2>
             <p id="contador">Filmes cadastrados: 0</p>
             <ul id="lista"></ul>
         </section>
    </main>
-   <footer></footer>
+   <footer>
+        <h2 class="h2-footer">&copy; Arthur Neumann</h2>
+   </footer>
 
     <script src="script.js"></script>
 </body>
